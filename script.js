@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             label_hours: "Hours",
             label_minutes: "Mins",
             label_seconds: "Secs",
-            download_btn: "Download Wedding Invitation (Video)",
+            download_btn: "Play Wedding Invitation (Video)",
             seal_prompt: "✨ Tap the Seal to Open Your Invitation ✨",
             autoplay_msg: "🎵 Tap anywhere to start the music"
         },
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
             label_hours: "గంటలు",
             label_minutes: "నిమిషాలు",
             label_seconds: "సెకన్లు",
-            download_btn: "వివాహ పత్రికను డౌన్‌లోడ్ చేసుకోండి (వీడియో)",
+            download_btn: "వివాహ పత్రికను ప్లే చేయండి (వీడియో)",
             seal_prompt: "✨ తెరిచేందుకు ముద్రపై క్లిక్ చేయండి ✨",
             autoplay_msg: "🎵 సంగీతాన్ని వినడానికి ఎక్కడైనా క్లిక్ చేయండి"
         }
