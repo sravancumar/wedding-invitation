@@ -363,6 +363,12 @@ img {
     transition: transform 0.5s ease;
 }
 
+@media (max-width: 768px) {
+    .hero-bg-img {
+        object-position: center 30%; /* Move image up on mobile to show faces better */
+    }
+}
+
 .hero-overlay {
     position: absolute;
     top: 0;
@@ -667,6 +673,12 @@ img {
     box-shadow: var(--shadow-card);
 }
 
+.event-card.highlighted {
+    border: 2px solid var(--color-gold);
+    background: linear-gradient(135deg, var(--color-bg-white) 0%, var(--color-gold-light) 100%);
+    box-shadow: 0 8px 30px rgba(198, 161, 98, 0.15);
+}
+
 .event-icon {
     width: 64px;
     height: 64px;
@@ -813,9 +825,6 @@ img {
     padding: 12px;
 }
 
-.google-map {
-    filter: grayscale(1) contrast(1.1) invert(0.05); /* Stylish luxury dark/gold map tint overlay can be added */
-}
 
 .map-card {
     position: absolute;
